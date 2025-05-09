@@ -1,0 +1,31 @@
+name: hadits
+description: "A new Flutter project."
+publish_to: 'none'
+version: 1.0.0+1
+
+environment:
+  sdk: ^3.7.0
+
+dependencies:
+  flutter:
+    sdk: flutter
+  path_provider: ^2.1.2
+  cupertino_icons: ^1.0.8
+  salomon_bottom_bar: ^3.3.1
+  flutter_html: ^3.0.0
+  scrollable_positioned_list: ^0.3.8
+  sqflite: ^2.4.2
+  path: ^1.8.3
+  share_plus: ^10.1.4
+  clipboard: ^0.1.3
+  provider: ^6.1.2
+  wakelock_plus: ^1.2.10
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter:
+  uses-material-design: true
+  assets:
+  - assets/database/hadith_database.db
